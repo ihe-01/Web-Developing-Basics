@@ -1,0 +1,30 @@
+width: Sets the horizontal size of an element.
+height: Sets the vertical size of an element.
+
+background / background-color: Sets the background color or image.
+background-image: Sets an image as the background.
+background-size: Sets the size of the background image.
+background-repeat: Controls if/how the background image repeats.
+
+color: Sets the text color.
+font-family: Sets the typeface for text.
+text-align: Aligns text horizontally (left, center, right).
+
+border: Sets the border style, width, and color.
+border-radius: Rounds the corners of an element.
+box-shadow: Adds shadow effects to elements.
+
+padding: Space inside the element, between content and border.
+margin: Space outside the element, between border and other elements.
+
+position: Controls how the element is positioned (static, relative, absolute, fixed, sticky).
+top, bottom, left, right: Moves the element from the respective edge of its positioned ancestor.
+z-index: Controls stacking order of overlapping elements.
+
+opacity: Sets the transparency level (0 is invisible, 1 is fully visible).
+
+display: Specifies how an element is displayed (block, inline, flex, etc.).
+overflow: Controls what happens when content overflows the element (visible, hidden, scroll, auto).
+
+flex, flex-direction, justify-content, align-items: Flexbox layout properties.
+grid, grid-template-columns, grid-template-rows:

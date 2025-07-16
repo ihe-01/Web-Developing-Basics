@@ -1,0 +1,54 @@
+The first line of an HTML file is its doctype.
+The second line should be the <html> tag's opening tag, followed right now by its closing tag </html>.
+    <!DOCTYPE html>
+    <html></html>
+
+In general, it's preferable to use meaningful 'semantics' when writing HTML.
+
+The 'head' area of the HTML document includes crucial information about your web page, also known as metadata.
+(Usually, most of the metadate will not change, so it is often the same for all pages in a website.)
+-the page's title
+-page metadata including:
+-the 'character set', telling about what character encoding is used in the page
+browser information, including x-ua-compatible which indicates that the IE=edge browser is supported
+information about how the viewport should behave when it is loaded. Setting the viewport to have an initial 
+scale of 1 controls the zoom level when the page is first loaded
+    <head>
+        <title>Welcome to my Virtual Terrarium</title> each site will have a unique title
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+The main title of the page is usually within the body tag.
+    <h1>My Terrarium</h1>
+
+Different tags are used to structure the content of the page.
+    <!DOCTYPE html>: Declares the document type and HTML version.
+    <html>: Root element of an HTML page.
+    <head>: Contains metadata and links to resources.
+    <title>: Sets the page title (shown in browser tab).
+    <meta>: Provides metadata (character set, viewport, etc.).
+    <link>: Links external resources like CSS files.
+    <script>: Embeds or links JavaScript code.
+    <style>: Embeds CSS styles.
+    <body>: Contains the visible content of the page.
+    <h1> to <h6>: Headings, <h1> is the largest.
+    <p>: Paragraph of text.
+    <a>: Hyperlink to another page or resource.
+    <img>: Displays an image.
+    <ul>: Unordered (bulleted) list.
+    <ol>: Ordered (numbered) list.
+    <li>: List item.
+    <div>: Generic container for content.
+    <span>: Inline container for content.
+    <br>: Line break.
+    <hr>: Horizontal rule (divider).
+    <table>: Table container.
+    <tr>: Table row.
+    <td>: Table cell.
+    <th>: Table header cell.
+    <form>: Form for user input.
+    <input>: Input field.
+    <button>: Clickable button.
+    <label>: Label for form elements.
